@@ -5,11 +5,11 @@
 Does CoGrader AI-generated feedback on grade 9 written responses specifically acknowledge student strengths across essay quality tiers?
 
 - Does the strength acknowledgement rate decline with essay quality, or is it constant/high across all tiers?
-- Is the strength acknowledgement rate consistent across different subject areas (ELA vs. Science)?
+- Is the strength acknowledgement rate consistent across different topics in ELA argumentative essays?
 
 ## Overview
 
-Using Claude Sonnet 5, we generate 60 argumentative essays targeting the 9th grade level across three quality tiers (Strong / Developing / Weak) and two subject categories (ELA, Science), with each topic fully crossed with all three tiers.
+Using Claude Sonnet 5, we generate 60 argumentative essays targeting the 9th grade level across three quality tiers (Strong / Developing / Weak) and 5 topics in ELA Argumentative Essays, with each topic fully crossed with all three tiers.
 
 Each text is then run through CoGrader (based on the CCSS Rubric — Common Core State Standards) to produce rubric-based feedback. Each generated text, along with its CoGrader "Glow" feedback, is evaluated for **Strength Acknowledgement** using an LLM-based evaluator powered by **GPT-5.4**.
 
@@ -26,9 +26,10 @@ The evaluator assesses feedback across 5 features to determine whether the feedb
 | Parameter           | Detail                     |
 | ------------------- | -------------------------- |
 | Quality Tiers       | Strong / Developing / Weak |
-| Categories          | ELA, Science               |
-| Topics per category | 10                         |
+| Categories          | ELA                        |
+| Topics per category | 5                          |
 | Tiers per topic     | 3                          |
+| Essay per Tier      | 4                          |
 | Total sample size   | 60 essays                  |
 | Essay length        | 400–600 words              |
 
@@ -44,19 +45,6 @@ The evaluator assesses feedback across 5 features to determine whether the feedb
 - Should students choose their own electives freely
 - Should standardized testing be reduced or eliminated
 - Should schools teach financial literacy as a required course
-
-### 2. Science CER (Claim-Evidence-Reasoning) Essay Topics
-
-- Does exercise affect short-term memory (data table)
-- Effects of light exposure on plant growth
-- Is a water sample safe based on given test data
-- Why did a fish population decline in a lake (ecosystem data)
-- Which material is the best insulator (experiment results)
-- Evidence for plate tectonics from rock-layer data
-- Effect of temperature on reaction rate (chemistry data set)
-- Analyzing vaccine efficacy from a trial summary
-- Evidence of climate change from a temperature/CO2 data set
-- Which variable most affects plant germination rate (experiment design)
 
 ## Rubric
 
