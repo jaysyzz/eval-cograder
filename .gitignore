@@ -1,0 +1,8 @@
+# Environments
+.env
+.venv/
+venv/
+env/
+
+#python
+app.py
