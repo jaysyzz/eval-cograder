@@ -3,6 +3,6 @@
 .venv/
 venv/
 env/
-
 #python
 app.py
+.ipynb_checkpoints/
