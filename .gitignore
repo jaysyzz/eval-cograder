@@ -1,8 +1,7 @@
-# Environments
+﻿# Environments
 .env
 .venv/
 venv/
 env/
-
 #python
-app.py
+.ipynb_checkpoints/
