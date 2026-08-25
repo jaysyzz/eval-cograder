@@ -11,7 +11,7 @@
 | `topic_description`                           | Description of stance the argumentative essay takes                                                                                               |
 | `prompt_used`                                 | Prompt provided to Claude Sonnet 5 to generate text                                                                                               |
 | `generated_text`                              | Output from Claude Sonnet 5 Generator                                                                                                             |
-| `GBT 5.5_teacher_Validator`                   | Independent teacher_validator for genereated prompt that assigns holistic quality label and letter grade                                          |
+| `GPT 5.5_teacher_Validator`                   | Independent teacher_validator for genereated prompt that assigns holistic quality label and letter grade                                          |
 | `cograder_feedback_stripped`                  | CoGrader's feedback after removing praise targeted by the ablation                                                                                |
 | `cograder_grade`                              | Grade assigned to generated essay by Cograder out of 10                                                                                           |
 | `eval_presence_of_praise_stripped`            | Evaluate whether the stripped CoGrader feedback contains praise or positive acknowledgement                                                       |
