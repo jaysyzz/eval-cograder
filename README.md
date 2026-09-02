@@ -70,9 +70,9 @@ After implementing the Strength Acknowledgement Evaluator on CoGrader's feedback
 Implemented a Negative Control Ablation and Stability Re-run.
 Results: Found that the evaliator does work and CoGrader passes criterion by construction.
 
-### 2. Error Analysis
+### 2. Error Analysis:
 
-Closley read all 20 weak-tier feedbacks and found 4 failure mode categories
+Closley read all 20 weak-tier feedbacks and found 4 failure mode categories.
 
 1. Fabrication and Ungrounded Claims
 2. Internal Contradictions and Miscalibrated Judgement
