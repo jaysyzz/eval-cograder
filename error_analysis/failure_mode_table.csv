@@ -1,0 +1,35 @@
+failure_mode,failure_mode_description,vebatim_example,n(count)
+Fabrication & Ungrounded Claims,"Feedback suggests content that has no basis in the actual essay such as inventing studies or statistics, referencing ideas the student never wrote, or suggesting student to add an already present element in their essay.","Row 4: Fabricated Evidence
+ Tells the student to write ""'Phones are a significant distraction; in fact, recent studies show that average test scores decreased by 10% when students had access to devices.'
+"" →  an invented citation offered as a sentence to copy.
+Row 9: Feedback Referencing Things Not in Essay
+Feedback suggests adding transition such as: “'Furthermore, the pressure of testing affects student mental health“ → students essay does not mention mental health 
+Row 19: Recommend Already Present element As Missing
+Under Purpose/Organization states: ""Include an explicit acknowledgement of the opposing view that AI can be a helpful 'tool' before refuting it.” → Student does address an opposing view and refutes it: “""Cheating is cheating no matter how you dress it up and calling it a 'tool' dont change what it actually is which is doing work that isnt yours.""  
+
+
+
+",13/20
+Internal Contradiction & Miscalibrated Judgment,"Feedback does not agree with itself where praise in the summary or ""3 Things You Did Well"" section conflicts with rubric score or is criticized somewhere else in the feedback, strengths are stated with more confidence than the essay supports, and specific tone is suggested even if it does not fit essay's genre or rubric criteria.","Row 15: Good work is also flagged as “needs work”
+In “3 Things you did well”: aunt’s daycare story is “practical…grounded…relatable” → In Evidence/Elaboration: “informal and relies on personal anecdotes” 
+Feedback does not check whether example exactly supports stance → generic praise and criticism
+Row 3: Push for Professional Tone regardless if it fits
+Feedback suggests: “You can make your argument more professional..” → The rubric CoGrader grades essay against does not mention need for professional writing 
+Row 10: False Praise
+Feedback states: “""Your arguments are easy to follow"" → however in Evidence/Elaboration “language is often repetitive and lacks formal evidence or precise vocabulary” → this results in being harder for readers to follow argument ",20/20
+Templated / Non-Individualized Feedback,"Feedback follows a fixed structure regardless of what content the essay contains because the same quote/example gets recycled to support multiple unrelated points, section ""1 Question I Still Have"" does not do intended job, confusing correction or phrasing (e.g. speech language applied to a written essay/ transition word aimed at wrong sentence).","Row 1-20: 
+""1 Question I Still Have"" contains no question — just directives (""Review your draft to fix…"").
+Row 0: Reusing Same Example (no analytical work)
+“""Studies has shown that uniforms help schools but I don't remember which studies."" → feedback references same quote in Evidence/Elaboration and Convention section
+Row 1: Mismatch
+Feedback states: “which made it easy for your listeners” & “Practice your speech by” → refers to speech language when evaluating essay",20/20
+Shallow Analysis - Argument & Logic Gap,"Feedback evaluates surface features (grammer, structure, word choice) but never actually tests if essay's argument holds up because weak analogies get praised without being examined, counterarguments that students mention but dismiss are not checked, and cues like incomplete endings or self-flagged digressions are caught inconsistently.","Row 7: Logic Gap
+Summary states: “ clear and logical argument for why schools should teach phone management rather than banning them entirely.” → Student essays logic: “Also banning it completely is like never letting a kid near water and then expecting them to swim perfect later, that don't make sense to me.” → How does phone literacy compare with swimming risk.
+Row 9: Incompleteness Detection is Inconsistent
+The last sentence in essay: “So basically the whole system dont really work the way its supposed” → Feedback flags it in Purpose/Organization for sentence/paragraph structure, not because of incompleteness
+Row 13: Self-admitted digressions  not flagged
+Student states: “Also I forgot to say earlier that sports practices happen after school so that's not related to this but I wanted to bring it up anyway because I thought of it.” → Feedback does not mention.
+Row 16: Surface Level
+Feedback states: “You used a great analogy by comparing AI to a calculator, which helps the audience understand that technology is meant to assist with difficult tasks.” → but actually essays weakest logical point and never interrogated. Calculator only replaces arithmetic step → stu never defended analogy and feedback does not flag
+
+",13/20
